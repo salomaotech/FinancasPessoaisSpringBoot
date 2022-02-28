@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en"
+>
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+</head>
+<body>
+<form action="/cadastrar" method="post">
+    <label for="data">Data</label>
+    <input id="data" name="data" type="date" value="dd-mm-yyyy">
+
+    <br>
+    <labe for="carteira">Carteira</labe>
+    <select id="carteira" name="carteira">
+        <option value="Teste1">Teste1</option>
+        <option value="Teste2">Teste2</option>
+        <option value="Teste3">Teste3</option>
+    </select>
+
+    <br>
+    <label for="titulo">Título</label>
+    <input id="titulo" name="titulo" type="text">
+
+    <br>
+    <label for="descricao">Descrição</label>
+    <textarea cols="10" id="descricao" name="descricao" rows="10"></textarea>
+
+    <br>
+    <label for="entrada">Entrada R$</label>
+    <input id="entrada" name="entrada" type="text">
+
+    <br>
+    <label for="saida">Saida R$</label>
+    <input id="saida" name="saida" type="text">
+
+    <br>
+    <input type="submit" value="Salvar">
+
+</form>
+</body>
+</html>
