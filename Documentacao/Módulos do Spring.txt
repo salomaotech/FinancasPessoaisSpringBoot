@@ -1,0 +1,6 @@
+Spring Boot DevTools
+Spring Web
+Spring Data JPA
+Thymeleaf
+MySQL Driver
+
